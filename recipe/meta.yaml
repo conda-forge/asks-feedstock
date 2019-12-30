@@ -22,7 +22,7 @@ requirements:
     - python >=3.5
     - async_generator
     - h11
-    - multio >=0.2.3
+    - anyio
 
 test:
   imports:
@@ -30,7 +30,7 @@ test:
   requires:
     - curio
     - pytest
-    - trio
+    - overly
 
 about:
   home: https://github.com/theelous3/asks
